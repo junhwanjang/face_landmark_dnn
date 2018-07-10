@@ -4,9 +4,7 @@ for track initialization and back-tracking for match verification
 between frames.
 '''
 from math import sqrt
-
 import numpy as np
-
 import cv2
 
 class Tracker:

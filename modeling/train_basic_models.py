@@ -24,7 +24,9 @@ import numpy as np
 from sklearn.cross_validation import train_test_split
 
 # Own module
-from utils import smoothL1, relu6
+import sys
+sys.path.append("../utils/")
+import smoothL1, relu6
 from layers import DepthwiseConv2D
 
 INPUT_SHAPE = (64, 64, 1)

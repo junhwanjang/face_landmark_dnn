@@ -2,7 +2,6 @@
 Using Kalman Filter as a point stabilizer to stabiliz a 2D point.
 """
 import numpy as np
-
 import cv2
 
 class Stabilizer:

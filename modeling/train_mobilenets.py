@@ -20,10 +20,8 @@ import keras
 import numpy as np
 from sklearn.cross_validation import train_test_split
 
-
 def relu6(x):
     return K.relu(x, max_value=6)
-
 
 def preprocess_input(x):
     """Preprocesses a numpy array encoding a batch of images.

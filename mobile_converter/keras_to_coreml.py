@@ -3,9 +3,11 @@ import coremltools
 import tensorflow as tf
 from keras import backend as K
 from keras.utils import custom_object_scope
-from utils import relu6, smoothL1
 from keras.applications import mobilenet
 
+import sys
+sys.path.append("../utils/")
+import relu6, smoothL1
 
 MODEL_PATH = "../landmark_model/Mobilenet_v1.hdf5"
 ML_MODEL_PATH = "../landmark_model/Mobilenet_v1.mlmodel"

@@ -4,6 +4,8 @@ import numpy as np
 import os
 import json
 
+import sys
+sys.path.append("../utils/")
 from pts_tools import read_points, get_paths
 from landmark_augment import LandmarkAugment
 

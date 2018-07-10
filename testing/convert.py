@@ -3,7 +3,10 @@ import coremltools
 import tensorflow as tf
 from keras import backend as K
 from keras.utils import custom_object_scope
-from utils import relu6, smoothL1
+
+import sys
+sys.path.append("../utils/")
+import relu6, smoothL1
 
 from tensorflow.python.framework import graph_util
 from tensorflow.python.framework import graph_io
