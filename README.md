@@ -19,8 +19,8 @@ y = y['arr_0'].reshape(-1, 136)
 ```
 
 ### [ Modeling ]
-- [VGG_like_model](./modeling/basic_models.py) 
-- [Mobilenet_based_model](./modeling/mobilenets.py)
+- [VGG_like_model](./modeling/train_basic_models.py) 
+- [Mobilenet_based_model](./modeling/train_mobilenets.py)
 
 ### [ Result ]
 - Face detector: [opencv ssd detector](https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/)
