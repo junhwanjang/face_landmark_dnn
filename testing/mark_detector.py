@@ -156,8 +156,8 @@ class FaceDetector:
     """Detect human face from image"""
 
     def __init__(self,
-                 dnn_proto_text='/Users/seerslab/projects/face_landmark_dnn/src/assets/deploy.prototxt',
-                 dnn_model='/Users/seerslab/projects/face_landmark_dnn/src/assets/res10_300x300_ssd_iter_140000.caffemodel'):
+                 dnn_proto_text='../assets/deploy.prototxt',
+                 dnn_model='../assets/res10_300x300_ssd_iter_140000.caffemodel'):
         """Initialization"""
         self.face_net = cv2.dnn.readNetFromCaffe(dnn_proto_text, dnn_model)
         self.detection_result = None
