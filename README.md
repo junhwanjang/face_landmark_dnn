@@ -26,6 +26,9 @@ y = y['arr_0'].reshape(-1, 136)
 - Face detector: [opencv ssd detector](https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/)
 - Facial Landmark detector: Mobilenet based model
 
+[Youtube Video 1](https://www.youtube.com/watch?v=0CwBjoHU5os)
+[Youtube Video 2](https://www.youtube.com/watch?v=ovMdKCaAuMc)
+
 ### [ Converter for Mobile ]
 - [IOS - Keras to CoreML](./testing/convert.py)
 
