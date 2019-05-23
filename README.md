@@ -1,6 +1,11 @@
 # facial-landmark-dnn
 Facial landmark detection using Convolutional Neural Networks for Mobile Device
 
+### [ Requirements ]
+- tensorflow==1.5.0
+- Keras==2.1.3
+- coremltools==0.8
+
 ### [ Data Preprocessing ]
 - Raw-Data
     1. [300W](https://ibug.doc.ic.ac.uk/resources/300-W/)
